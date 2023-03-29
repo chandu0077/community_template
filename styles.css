@@ -1,0 +1,109 @@
+body{
+    background-color: azure;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Ubuntu,sans-serif;
+}
+.card{
+    margin-top:50px;
+    width:400px;
+    height:300px;
+    background-color: rgb(255, 255, 255);
+    border-radius:15px;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    height:50%;
+}
+.text{
+    height:50%;
+    padding:29px;
+}
+#title{
+    color: rgb(23, 183, 23);
+    font-weight: bold;
+    font-size: 25px;
+    margin:0;
+}
+#description{
+    color: rgb(247, 247, 27);
+    font-size: 15px;
+    /* padding-left:25px; */
+    font-weight: 600;
+    margin-top:15px;
+
+}
+#about{
+    margin:0;
+    font-size:11px;
+}
+.text2{
+    height:50%;
+    display: flex;
+}
+.sub{
+    width:50%;
+    background-color:darkcyan;
+    border-bottom-left-radius: 10px;
+}
+.wh{
+    width:50%;
+    background-color: rgb(53, 165, 165);
+    border-bottom-right-radius: 10px;;
+}
+.subscription{
+    padding:29px;
+}
+.why{
+    padding:29px;
+}
+#monthly{
+    font-size:13px;
+    color:rgb(245, 238, 238);
+    margin:0;
+}
+#price{
+    color:white;
+    margin:0;
+    margin-top:15px;
+    font-size: 15px;
+}
+.dollar_price{
+    display: flex;
+}
+#per{
+    margin:0;
+    margin-top:15px;
+    color:greenyellow;
+    margin-left:10px;
+    font-size:12px;
+}
+#access{
+    color:whitesmoke;
+    font-size:9px;
+}
+button{
+    width:148px;
+    border-radius:5px;
+    text-align:center;
+    color:white;
+    background-color: rgb(157, 239, 33);
+    border:none;
+    height:25px;
+    margin-top:5px;
+    box-shadow: 3px 5px black;
+    cursor:grab/pointer;
+}
+#ti{
+    color:white;
+    margin:0;
+    font-size: 15px;
+}
+#industry{
+    color:whitesmoke;
+    font-size: 9px;
+    margin:0;
+    margin-top:15px;
+}
